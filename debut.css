@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    background-color: rgb(15, 0, 69);
+}
+
+.header {
+    background-color: white;
+    padding: 15px;
+}
+
+.header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header nav a {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: Impact, fantasy;
+    font-size: x-large;
+}
+
+.header nav img {
+    width: 72px;
+    height: 27px;
+}
+
+.images-top {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 5% 3%;
+}
+
+.image-hover {
+    display: grid;
+    width: 40%;
+    flex-shrink: 0;
+}
+
+.image-hover img {
+    grid-area: 1 / 1; /*pour superposer*/
+    width: 100%;
+    transition: opacity 0.5s ease;
+    border-radius: 20px;
+}
+
+.image-hover .img2 {
+    opacity: 0;
+}
+
+.image-hover:hover img:first-child {
+    opacity: 0;
+}
+
+.image-hover:hover .img2 {
+    opacity: 1;
+}
+
+
+.Texte-droite {
+    flex: 1;
+    color: white;
+    
+}
+
+.Texte-droite h1 {
+    font-family: Impact, fantasy;
+    font-size: 2rem;
+    margin-bottom: 16px;
+}
+
+.Texte-droite .Info-droite {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+.images-center {
+    width: 40%;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin: 3%;
+}
+
+.Texte-center {
+    display: flex;
+    color: white;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-left: 3%;
+}
+
+.Texte-center h1 {
+    font-family: Impact, fantasy;
+    font-size: 2rem;
+    margin-bottom: 16px;
+}
+
+.Info-center {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.7; /*espacement entre le texte*/
+}

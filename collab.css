@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    background-color: rgb(15, 0, 69);
+}
+
+.header {
+    background-color: white;
+    padding: 15px;
+}
+
+.header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header nav a {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: Impact, fantasy;
+    font-size: x-large;
+}
+
+.header nav img {
+    width: 72px;
+    height: 27px;
+    right: 20px;
+    top: 25px;
+}
+

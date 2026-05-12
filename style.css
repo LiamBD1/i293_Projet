@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    background-color: rgb(15, 0, 69);
+}
+
+.header {
+    background-color: white;
+    padding: 15px;
+}
+
+.header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header nav a {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: Impact, fantasy;
+    font-size: x-large;
+}
+
+.header nav img {
+    width: 72px;
+    height: 27px;
+    right: 20px;
+    top: 25px;
+}
+
+.images-top {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 80px;
+}
+
+.image-hover,
+.image-hover2,
+.image-hover3 {
+    width: 400px;
+    display: grid;
+}
+
+.image-hover img,
+.image-hover2 img,
+.image-hover3 img {
+    grid-area: 1 / 1;
+    width: 100%;
+    border-radius: 20px;
+    transition: opacity 0.5s ease;
+}
+
+.image-hover .img2,
+.image-hover2 .img4,
+.image-hover3 .img6 {
+    opacity: 0;
+}
+
+.image-hover:hover .img1,
+.image-hover2:hover .img3,
+.image-hover3:hover .img5 {
+    opacity: 0;
+}
+
+.image-hover:hover .img2,
+.image-hover2:hover .img4,
+.image-hover3:hover .img6 {
+    opacity: 1;
+}
+
+.magasin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 80px;
+}
+
+.magasin img {
+    width: 900px;
+    border-radius: 20px;
+    margin: 30px;
+}
+
+h2 {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 25px;
+    letter-spacing: 2.6px;
+    word-spacing: 1px;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+}
+
